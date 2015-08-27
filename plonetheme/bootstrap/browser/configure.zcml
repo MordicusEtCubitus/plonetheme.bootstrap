@@ -15,6 +15,13 @@
       layer=".interfaces.IThemeSpecific"
       directory="templates" />
 
+    <browser:viewletManager
+        name="plone.portalheadernav"
+        provides=".interfaces.IPortalHeaderNav"
+        permission="zope2.View"
+        class="plone.app.viewletmanager.manager.OrderedViewletManager"
+        />
+
   <browser:page
       name="bootstrapview"
       for="*"
@@ -49,10 +56,44 @@
     file="bootstrap-integration.js"
     layer=".interfaces.IThemeSpecific"
     / -->
-
+    
    <browser:resourceDirectory
        name="plonetheme.bootstrap.www"
        directory="www"
        layer=".interfaces.IThemeSpecific"
        />
+
+    <!-- Moving viewlets -->
+    <!-- The skip links for accessibility -->
+    <browser:viewlet
+        name="plone.skip_links"
+        manager=".interfaces.IPortalHeaderNav"
+        class="plone.app.layout.viewlets.common.SkipLinksViewlet"
+        permission="zope2.View"
+        />
+
+    <!-- The search box -->
+    <browser:viewlet
+        name="plone.searchbox"
+        manager=".interfaces.IPortalHeaderNav"
+        class="plone.app.layout.viewlets.common.SearchBoxViewlet"
+        permission="zope2.View"
+        />
+
+    <!-- The global sections -->
+    <browser:viewlet
+        name="plone.global_sections"
+        manager=".interfaces.IPortalHeaderNav"
+        class="plone.app.layout.viewlets.common.GlobalSectionsViewlet"
+        permission="zope2.View"
+        />
+
+    <!-- The personal bar -->
+    <browser:viewlet
+        name="plone.personal_bar"
+        manager=".interfaces.IPortalHeaderNav"
+        class="plone.app.layout.viewlets.common.PersonalBarViewlet"
+        permission="zope2.View"
+        />     
+
 </configure>
