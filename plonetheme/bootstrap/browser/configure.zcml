@@ -44,10 +44,15 @@
         layer=".interfaces.IThemeSpecific"
         />
 
-  <browser:resource
+  <!-- browser:resource
     name="bootstrap-integration.js"
     file="bootstrap-integration.js"
     layer=".interfaces.IThemeSpecific"
-    />
+    / -->
 
+   <browser:resourceDirectory
+       name="plonetheme.bootstrap.www"
+       directory="www"
+       layer=".interfaces.IThemeSpecific"
+       />
 </configure>
