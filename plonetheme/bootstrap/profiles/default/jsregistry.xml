@@ -1,5 +1,47 @@
 <?xml version="1.0"?>
 <!-- Keep this file synced with profiles/plone-41/jsregistry.xml -->
+<object name="portal_javascripts">
+<javascript enabled="False" id="++resource++plone.app.jquery.js" />
+<javascript enabled="False" id="jquery-integration.js" />
+<javascript enabled="False" id="event-registration.js" />
+<javascript enabled="False" id="register_function.js" />
+<javascript enabled="False" id="plone_javascript_variables.js" />
+<javascript enabled="False" id="++resource++plone.app.jquerytools.js" />
+<javascript enabled="False" id="++resource++plone.app.jquerytools.form.js" />
+<javascript enabled="False" id="++resource++plone.app.jquerytools.overlayhelpers.js" />
+<javascript enabled="False" id="++resource++plone.app.jquerytools.dateinput.js" />
+<javascript enabled="False" id="++resource++plone.app.jquerytools.rangeinput.js" />
+<javascript enabled="False" id="++resource++plone.app.jquerytools.validator.js" />
+<javascript enabled="False" id="++resource++plone.app.jquerytools.plugins.js" />
+<javascript enabled="False" id="nodeutilities.js" />
+<javascript enabled="False" id="cookie_functions.js" />
+<javascript enabled="False" id="modernizr.js" />
+<javascript enabled="False" id="livesearch.js" />
+<javascript enabled="False" id="++resource++search.js" />
+<javascript enabled="False" id="fullscreenmode.js" />
+<javascript enabled="False" id="select_all.js" />
+<javascript enabled="False" id="dragdropreorder.js" />
+<javascript enabled="False" id="mark_special_links.js" />
+<javascript enabled="False" id="collapsiblesections.js" />
+<javascript enabled="False" id="form_tabbing.js" />
+<javascript enabled="False" id="popupforms.js" />
+<javascript enabled="False" id="jquery.highlightsearchterms.js" />
+<javascript enabled="False" id="first_input_focus.js" />
+<javascript enabled="False" id="accessibility.js" />
+<javascript enabled="False" id="styleswitcher.js" />
+<javascript enabled="False" id="toc.js" />
+<javascript enabled="False" id="collapsibleformfields.js" />
+<javascript enabled="False" id="++resource++plone.app.discussion.javascripts/comments.js" />
+<javascript enabled="False" id="dropdown.js" />
+<javascript enabled="False" id="inline_validation.js" />
+<javascript enabled="False" id="kss-bbb.js" />
+<javascript enabled="False" id="table_sorter.js" />
+<javascript enabled="False" id="calendar_formfield.js" />
+<javascript enabled="False" id="formUnload.js" />
+<javascript enabled="False" id="formsubmithelpers.js" />
+<javascript enabled="False" id="unlockOnFormUnload.js" />
+<javascript enabled="False" id="jquery.tinymce.js" />
+<javascript enabled="False" id="tiny_mce_gzip.js" />
 
 <object name="portal_javascripts">
  <javascript cacheable="True" compression="none" cookable="True"
