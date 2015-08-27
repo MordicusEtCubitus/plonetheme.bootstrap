@@ -1,3 +1,10 @@
-<div id="portal-header">
-    <div tal:replace="structure provider:plone.portalheader" />
-</div>
+<nav class="navbar navbar-default"  id="portal-header">
+    <div  class="container-fluid">
+        <div tal:replace="structure provider:plone.portalheader" />
+    
+    
+        <div class="collapse navbar-collapse" id="navbar">
+            <div tal:replace="structure provider:plone.portalheadernav" />
+        </div>
+    </div>
+</nav>
