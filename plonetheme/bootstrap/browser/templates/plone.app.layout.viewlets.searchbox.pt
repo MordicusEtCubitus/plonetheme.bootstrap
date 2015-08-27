@@ -1,7 +1,10 @@
 <tal:define
      tal:define="navigation_root_url view/navigation_root_url;"
      >
-    <form name="searchform" class="form-inline form-search pull-right"
+
+    <form name="searchform" 
+        class="navbar-form navbar-left" role="search"
+        
           action="search"
           i18n:domain="plone"
           tal:attributes="action string:${navigation_root_url}/@@search;">
@@ -45,4 +48,5 @@
 
       </div>
     </form>
+
 </tal:define>
