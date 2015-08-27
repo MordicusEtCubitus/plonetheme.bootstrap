@@ -43,24 +43,18 @@
 <javascript enabled="False" id="jquery.tinymce.js" />
 <javascript enabled="False" id="tiny_mce_gzip.js" />
 
-<object name="portal_javascripts">
- <javascript cacheable="True" compression="none" cookable="True"
+
+ <javascript id="++resource++plonetheme.bootstrap.www/js/jquery.min.js"
+    cacheable="True" compression="none" cookable="True"
     enabled="True" inline="False" expression="" insert-before="*"
-    bundle="default" id="++resource++plone.app.jquery.js" />
+    bundle="default"  />
 
  <javascript
-    id="++resource++bootstrap-integration.js"
+    id="++resource++plonetheme.bootstrap.www/bootstrap/js/bootstrap.min.js"
     cacheable="True" compression="safe" cookable="True"
     enabled="True" expression=""  inline="False"/>
 
- <javascript
-    id="++resource++collective.js.bootstrap/js/bootstrap.min.js"
-    cacheable="True" compression="safe" cookable="True"
-    enabled="True" expression=""  inline="False"/>
 
- <javascript remove="True" id="bootstrap.min.js" />
- <javascript remove="True" id="bootstrap-dropdown.js" />
- <javascript remove="True" id="bootstrap-alerts.js" />
- <javascript remove="True" id="bootstrap-integration.js" />
+
 
 </object>
